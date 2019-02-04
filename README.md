@@ -8,13 +8,13 @@ Try it out:
 **Install dependencies:**
 
 ```
-$ npm install
+$ npm install
 ```
 
 **Run development:**
 
 ```
-$ npm run dev
+$ npm run dev
 ```
 
 - ☝ This this will start watching for any changes in your main style entry point:
@@ -30,7 +30,7 @@ dist/assets/css/styles.css
 **Run production:**
 
 ```
-$ npm run prod
+$ npm run prod
 ```
 
 - ☝ This command does exactely the same as `dev`. The difference is that it minifies the CSS output and it does not watch for any new changes.
