@@ -1,0 +1,41 @@
+@import '../variables.css';
+@import './Col.css';
+
+@define-mixin row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 var(--margin-row-mobile);
+
+	@media (--screen-lg) {
+		margin: 0 var(--margin-row-desktop);
+	}
+}
+
+.row {
+	@mixin row;
+}
+
+.justifyContent-center {
+	justify-content: center;
+}
+
+.justifyContent-flex-end {
+	justify-content: flex-end;
+}
+
+.justifyContent-flex-start {
+	justify-content: flex-start;
+}
+
+.justifyContent-center {
+	justify-content: center;
+}
+
+.justifyContent-space-between {
+	justify-content: space-between;
+}
+
+.justifyContent-space-around {
+	justify-content: space-around;
+}
