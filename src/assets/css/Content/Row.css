@@ -1,4 +1,4 @@
-@import '../../../../assets/css/variables.css';
+@import '../variables.css';
 
 @define-mixin row {
 	display: flex;
