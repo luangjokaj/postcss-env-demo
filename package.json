@@ -10,14 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "cssnano": "^4.1.10",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "normalize.css": "^8.0.1",
     "postcss-easy-import": "^3.0.0",
-    "postcss-mixins": "^6.2.1",
-    "postcss-preset-env": "^6.6.0"
+    "postcss-mixins": "^6.2.2",
+    "postcss-preset-env": "^6.7.0"
   },
   "devDependencies": {},
   "description": ""
